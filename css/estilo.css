@@ -26,11 +26,11 @@ li {
 }
 
 h1 {
-  background-color: #F4ECF7;
+  background-color: white;
 }
 
 body {
-  background-color: #F4ECF7;
+  background-color: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -45,30 +45,9 @@ img {
   height: auto;
 }
 
-.sobreMi {
-  border: 1px solid #333;
-  padding: 10px;
-  width: 300px;
-  margin: auto;
-  margin-left: 15%;
-}
-
-.imgUno {
-  height: 100px;
-  width: 130px;
-  margin-left: 11%;
-}
-
-.imgDos {
-  height: 200px;
-  width: 200px;
-  margin-left: 10%;
-}
-
-.imgTres {
-  height: 60px;
-  width: 50px;
-
+.contenedorUno{
+  box-sizing: border-box;
+ 
 }
 
 
@@ -91,27 +70,45 @@ footer {
   justify-content: space-around;
 }
 
-.sobreMi,
-#contacto {
-  flex: 1;
-  max-width: 400px;
-  text-align: left;
+/* Logo de Imágenes */
+.imgUno{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 100px;
+  align-content: stretch;
 }
+
+.imgDos{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 120px;
+  align-content: stretch;
+}
+
+.imgTres{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 135px;
+  align-content: stretch;
+}
+
 
 #contacto ul {
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: space-around;
+
+
 }
 
-#contacto img {
-  width: 40px;
-  height: 40px;
-}
+
 
 a {
-  color: burlywood;
+  color: rgba(255, 123, 0, 0.571);
   text-decoration: none;
   transition: color 0.3s ease;
 }
